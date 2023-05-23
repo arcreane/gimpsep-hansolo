@@ -1,0 +1,3 @@
+/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/Code/cmake-build-debug/CMakeFiles/Code.dir
+/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
