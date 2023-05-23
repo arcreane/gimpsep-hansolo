@@ -82,7 +82,7 @@ void printFileSelection() {
     while (true) {
         cout << endl;
         cout << "Which image do you want to edit ?" << endl;
-        string directory = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/Code/Original Images/";
+        string directory = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/gimpsep-hansolo/Original Images/";
         vector<string> filenames;
         glob(directory + "*.jpg", filenames);
         int image_index;
@@ -112,7 +112,7 @@ void printDirectorySelection() {
     while (true) {
         cout << endl;
         cout << "Which folder do you want to use?" << endl;
-        string home = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/Code/Original Images/";
+        string home = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/gimpsep-hansolo/Original Images/";
         vector<string> directories;
         int directory_index;
         int i = 1;
@@ -246,7 +246,7 @@ void morphologicalOperation(const string& filename, String operation) {
         if (k == 99) {
             destroyAllWindows();
         } else if (k == 115) {
-            string edited_image_filename = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/Code/Saved Images/" + operation + source_image_filename;
+            string edited_image_filename = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/gimpsep-hansolo/Saved Images/" + operation + source_image_filename;
             imwrite(edited_image_filename, edited_image);
             destroyAllWindows();
         } else {
@@ -297,7 +297,7 @@ void brightnessOperation(const string& filename, String operation) {
     if (k == 99) {
         destroyAllWindows();
     } else if (k == 115) {
-        string edited_image_filename = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/Code/Saved Images/" + operation + source_image_filename;
+        string edited_image_filename = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/gimpsep-hansolo/Saved Images/" + operation + source_image_filename;
         imwrite(edited_image_filename, edited_image);
         destroyAllWindows();
     } else {
@@ -340,7 +340,7 @@ void cannyEdgeDetection(const string& filename) {
     if (k == 99) {
         destroyAllWindows();
     } else if (k == 115) {
-        string edited_image_filename = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/Code/Saved Images/CannyEdgeDetected" + source_image_filename;
+        string edited_image_filename = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/gimpsep-hansolo/Saved Images/CannyEdgeDetected" + source_image_filename;
         imwrite(edited_image_filename, edited_image);
         destroyAllWindows();
     } else {
@@ -414,7 +414,7 @@ void resizingOperationWithFactor(const string& filename, double factor, const St
     if (k == 99) {
         destroyAllWindows();
     } else if (k == 115) {
-        string edited_image_filename = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/Code/Saved Images/ResizedWithFactor" + source_image_filename;
+        string edited_image_filename = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/gimpsep-hansolo/Saved Images/ResizedWithFactor" + source_image_filename;
         imwrite(edited_image_filename, edited_image);
         destroyAllWindows();
     } else {
@@ -462,7 +462,7 @@ void resizingOperationWithTwoDimensions(const string& filename, int height, int 
     if (k == 99) {
         destroyAllWindows();
     } else if (k == 115) {
-        string edited_image_filename = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/Code/Saved Images/ResizedWithTwoDimensions" + source_image_filename;
+        string edited_image_filename = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/gimpsep-hansolo/Saved Images/ResizedWithTwoDimensions" + source_image_filename;
         imwrite(edited_image_filename, edited_image);
         destroyAllWindows();
     } else {
@@ -499,7 +499,7 @@ void stitchingOperation(const string &directory) {
     if (k == 99) {
         destroyAllWindows();
     } else if (k == 115) {
-        string edited_image_filename = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/Code/Saved Images/Stitched.jpg";
+        string edited_image_filename = "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/gimpsep-hansolo/Saved Images/Stitched.jpg";
         imwrite(edited_image_filename, edited_image);
         destroyAllWindows();
     } else {

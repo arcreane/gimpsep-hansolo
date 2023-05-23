@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/Code/main.cpp" "CMakeFiles/Code.dir/main.cpp.o" "gcc" "CMakeFiles/Code.dir/main.cpp.o.d"
+  "/mnt/c/Users/alexa/OneDrive - ISEP/Documents/A2/Applications Multimédias/Projet/Rendu/gimpsep-hansolo/main.cpp" "CMakeFiles/Code.dir/main.cpp.o" "gcc" "CMakeFiles/Code.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
